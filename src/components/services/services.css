@@ -1,0 +1,84 @@
+
+
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: #fff;
+    column-gap: 1.875rem;
+}
+
+.services-container .services-box {
+    padding: 1.875rem;
+    border-radius: 2rem;
+    text-align: center;
+    transition: .5s ease;
+}
+
+.box__design {
+    background: rgb(255, 76, 96);
+    box-shadow: 0px 3px 20px 0px rgb(255, 76, 96);
+}
+
+.box__development {
+    background: rgb(255, 209, 92);
+    box-shadow: 0px 3px 20px 0px rgb(255, 209, 92);
+}
+
+.box__programmation {
+    background: rgb(108, 108, 299);
+    box-shadow: 0px 3px 20px 0px rgb(108, 108, 299);
+}
+
+.services__img {
+    max-width: 70px;
+    height: auto;
+    margin-bottom: 1.25rem;
+}
+
+.services__design h2,
+.services__programmation h2 {
+    color: #fff;
+    font-size: var(--h3-font-size);
+}
+
+.services__web-development,
+.services__web-development h2 {
+    color: #28255d;
+}
+
+.services__web-development h2 {
+    font-size: var(--h3-font-size);
+    margin-bottom: 1.25rem;
+}
+
+.services-box p {
+    font-size: var(--small-font-size);
+}
+
+.services__title {
+    margin-bottom: 1.25rem;
+}
+
+.services-container .services-box:hover {
+    transform: translateY(-1rem);
+}
+
+.services-box ion-icon {
+    font-size: 5rem;
+    color: #0ef;
+}
+
+@media screen and (max-width: 1024px) {
+    .services-container {
+        grid-template-columns: repeat(2, 330px);
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services-container {
+        grid-template-columns: 310px;
+    }
+}
