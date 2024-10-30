@@ -165,5 +165,7 @@ img {
 @media screen and (max-width: 768px) {
   .section__title {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
