@@ -161,3 +161,9 @@ img {
 .btn:hover {
   animation: button-push 0.3s linear 1;
 }
+
+@media screen and (max-width: 768px) {
+  .section__title {
+    text-align: center;
+  }
+}
