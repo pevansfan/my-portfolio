@@ -1381,7 +1381,7 @@ header .close:hover {
     font-weight: var(--font-medium);
 }
 
-.contact__button {
+.contact__button a{
     margin-top: 1rem;
     color: var(--skin-color);
     font-size: var(--small-font-size);
@@ -1397,7 +1397,7 @@ header .close:hover {
     transition: .3s;
 }
 
-.contact__button:hover .contact__button-icon {
+.contact__button a:hover .contact__button-icon {
     transform: translateX(.25rem);
 }
 
@@ -1777,6 +1777,17 @@ textarea.input {
     .contact__container {
         grid-template-columns: 360px;
         row-gap: 3rem;
+    }
+
+    .pp__thumbnail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolio__popup-img {
+        width: 200px;
+        height: 200px;
     }
 
     .footer__container {
