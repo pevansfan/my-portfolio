@@ -65,7 +65,12 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    backface-visibility: visible !important;
 }
+
+html, body {
+    overflow: visible;
+  }  
 
 body,
 button,
@@ -327,7 +332,7 @@ input {
     opacity: 0;
     visibility: hidden;
     filter: blur(10px);
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100%;
     background-color: var(--body-color);
@@ -468,7 +473,7 @@ button {
     opacity: 0;
     pointer-events: none;
     position: fixed;
-    z-index: var(--z-modal);
+    z-index: 9999;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     transform: translate(-50%, -50%) scale(1.2);
     transition: top 0s 0.2s ease-in-out,
@@ -1148,7 +1153,7 @@ header .close:hover {
     justify-content: center;
     align-items: center;
     padding: 0 1rem;
-    z-index: var(--z-modal);
+    z-index: 9999;
     opacity: 0;
     visibility: hidden;
     transition: .3s;
@@ -1157,6 +1162,7 @@ header .close:hover {
 .portfolio__popup.open {
     opacity: 1;
     visibility: visible;
+    z-index: 9999;
 }
 
 .portfolio__popup-inner {
@@ -1282,7 +1288,7 @@ header .close:hover {
     justify-content: center;
     align-items: center;
     padding: 0 1rem;
-    z-index: var(--z-modal);
+    z-index: 9999;
     opacity: 0;
     visibility: hidden;
     transition: .3s;

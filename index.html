@@ -752,29 +752,29 @@
                         </div>
                     </div>
                     <div class="contact__content">
-                        <form action="" class="contact__form">
+                        <form action="indexForm.php" class="contact__form" method="post">
                             <div class="input__container">
-                                <input type="text" class="input">
-                                <label for="">Prénom</label>
+                                <input type="text" class="input" name="username">
+                                <label for="username">Prénom</label>
                                 <span>Prénom</span>
                             </div>
                             <div class="input__container">
-                                <input type="email" class="input">
-                                <label for="">Email</label>
+                                <input type="email" class="input" name="email">
+                                <label for="email">Email</label>
                                 <span>Email</span>
                             </div>
                             <div class="input__container">
-                                <input type="tel" class="input">
-                                <label for="">Téléphone</label>
+                                <input type="tel" class="input" name="tel">
+                                <label for="tel">Téléphone</label>
                                 <span>Téléphone</span>
                             </div>
                             <div class="input__container textarea">
-                                <textarea name="" id="" class="input"></textarea>
-                                <label for="">Message</label>
+                                <textarea name="" id="" class="input" name="message"></textarea>
+                                <label for="message">Message</label>
                                 <span>Message</span>
                             </div>
 
-                            <button href="#contact" class="button"><i
+                            <button href="#contact" class="button" name="envoyer"><i
                                     class="uil uil-navigator button__icon"></i>Envoyer</button>
                         </form>
                     </div>
