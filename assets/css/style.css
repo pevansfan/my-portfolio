@@ -83,7 +83,7 @@ body {
     background-color: var(--body-color);
     color: var(--text-color);
     height: 100vh;
-    overflow: hidden;
+    overflow: auto;
 }
 
 h1,
@@ -329,9 +329,9 @@ input {
 }
 
 .homepage {
-    opacity: 0;
-    visibility: hidden;
-    filter: blur(10px);
+    opacity: 1;
+    visibility: visible;
+    filter: none;
     position: relative;
     width: 100%;
     height: 100%;
@@ -344,15 +344,16 @@ input {
     transition: opacity 2s ease, filter 2s ease, visibility 2s ease;
 }
 
-.homepage.active {
+/* .homepage.active {
     opacity: 1;
     visibility: visible;
     filter: blur(0);
-}
+} */
 
 /* ==================== SIDEBAR ==================== */
 .sidebar {
     position: fixed;
+    will-change: transform;
     width: 100px;
     height: 100vh;
     background-color: var(--body-color);
