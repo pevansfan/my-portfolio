@@ -765,12 +765,16 @@
                                 <input type="tel" class="input" name="tel" placeholder="Téléphone" required>
                             </div>
                             <div class="input__container textarea">
-                                <textarea name="message" id="message" class="input" placeholder="Message" required></textarea>
+                                <textarea name="message" id="message" class="input" placeholder="Message"
+                                    required></textarea>
                             </div>
 
                             <button type="submit" class="button" name="envoyer"><i
                                     class="uil uil-navigator button__icon"></i>Envoyer</button>
                         </form>
+                        <div id="loader" class="loader hidden">
+                            <div class="spinner"></div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -884,6 +888,7 @@
 
 
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         (function () {
             emailjs.init("V8kPppNmN7HYnWD0l");
@@ -896,13 +901,40 @@
 
     <!--==================== MAIN JS ====================-->
     <script>
-        document.getElementById("contact-form").addEventListener("submit", function(e) {
-          e.preventDefault();
-          emailjs.sendForm("service_3ulf0yx", "template_mt0u8c3", this)
-            .then(() => alert("Message envoyé !"))
-            .catch((error) => alert("Erreur : " + error));
+        const form = document.getElementById("contact-form");
+        const loader = document.getElementById("loader");
+
+        form.addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            loader.classList.remove("hidden"); // Affiche le spinner
+
+            emailjs.sendForm("service_3ulf0yx", "template_mt0u8c3", this)
+                .then(() => {
+                    loader.classList.add("hidden"); // Cache le spinner
+
+                    Swal.fire({
+                        title: 'Message envoyé !',
+                        text: 'Merci pour votre message, nous vous répondrons bientôt.',
+                        icon: 'success',
+                        confirmButtonText: 'Fermer'
+                    });
+
+                    form.reset();
+                })
+                .catch((error) => {
+                    loader.classList.add("hidden"); // Cache le spinner
+
+                    Swal.fire({
+                        title: 'Erreur !',
+                        text: 'Une erreur s’est produite. Veuillez réessayer plus tard.\n' + error,
+                        icon: 'error',
+                        confirmButtonText: 'OK'
+                    });
+                });
         });
-      </script>
+
+    </script>
     <!-- <script src="assets/js/script.js"></script> -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
