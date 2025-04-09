@@ -549,8 +549,7 @@
                                 <li>Technologies - <span>Illustrator</span></li>
                                 <li>Rôle - <span>Design</span></li>
                                 <li>Démo - <span><a href="https://pevansfan.github.io/site-low-poly/
-                                    "
-                                            target="_blank">https://pevansfan.github.io/site-low-poly/</a></span></li>
+                                    " target="_blank">https://pevansfan.github.io/site-low-poly/</a></span></li>
                             </ul>
                         </div>
                     </div>
@@ -725,7 +724,8 @@
                                 <span class="contact__card-data">fani.prft@gmail.com</span>
 
                                 <span class="contact__button">
-                                    <a href="mailto:fani.prft@gmail.com" target="_blank">Write me <i class="uil uil-arrow-right contact__button-icon"></i></a>
+                                    <a href="mailto:fani.prft@gmail.com" target="_blank">Write me <i
+                                            class="uil uil-arrow-right contact__button-icon"></i></a>
                                 </span>
                             </div>
 
@@ -735,7 +735,9 @@
                                 <span class="contact__card-data">06 52 90 64 86</span>
 
                                 <span class="contact__button">
-                                    <a href="https://wa.me/33652906486?text=Bonjour%20!%20Je%20souhaite%20discuter%20avec%20vous%20!" target="_blank">Write me <i class="uil uil-arrow-right contact__button-icon"></i></a>
+                                    <a href="https://wa.me/33652906486?text=Bonjour%20!%20Je%20souhaite%20discuter%20avec%20vous%20!"
+                                        target="_blank">Write me <i
+                                            class="uil uil-arrow-right contact__button-icon"></i></a>
                                 </span>
                             </div>
 
@@ -745,35 +747,28 @@
                                 <span class="contact__card-data">Evans Parfait</span>
 
                                 <span class="contact__button">
-                                    <a href="https://www.linkedin.com/in/evans-parfait-ab569a29b/" target="_blank">Write me <i class="uil uil-arrow-right contact__button-icon"></i></a>
+                                    <a href="https://www.linkedin.com/in/evans-parfait-ab569a29b/" target="_blank">Write
+                                        me <i class="uil uil-arrow-right contact__button-icon"></i></a>
                                 </span>
                             </div>
                         </div>
                     </div>
                     <div class="contact__content">
-                        <form action="indexForm.php" class="contact__form" method="post">
+                        <form class="contact__form" id="contact-form" method="post">
                             <div class="input__container">
-                                <input type="text" class="input" name="username">
-                                <label for="username">Prénom</label>
-                                <span>Prénom</span>
+                                <input type="text" class="input" name="name" placeholder="Prénom" required>
                             </div>
                             <div class="input__container">
-                                <input type="email" class="input" name="email">
-                                <label for="email">Email</label>
-                                <span>Email</span>
+                                <input type="email" class="input" name="email" placeholder="Email" required>
                             </div>
                             <div class="input__container">
-                                <input type="tel" class="input" name="tel">
-                                <label for="tel">Téléphone</label>
-                                <span>Téléphone</span>
+                                <input type="tel" class="input" name="tel" placeholder="Téléphone" required>
                             </div>
                             <div class="input__container textarea">
-                                <textarea name="" id="" class="input" name="message"></textarea>
-                                <label for="message">Message</label>
-                                <span>Message</span>
+                                <textarea name="message" id="message" class="input" placeholder="Message" required></textarea>
                             </div>
 
-                            <button href="#contact" class="button" name="envoyer"><i
+                            <button type="submit" class="button" name="envoyer"><i
                                     class="uil uil-navigator button__icon"></i>Envoyer</button>
                         </form>
                     </div>
@@ -820,8 +815,8 @@
             <div class="content">
                 <p>Partager ce lien via :</p>
                 <ul class="icons">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://pevansfan.github.io/my-portfolio/" target="_blank"><ion-icon
-                            name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://pevansfan.github.io/my-portfolio/"
+                        target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
                     <a href="https://twitter.com/intent/tweet?url=https://pevansfan.github.io/my-portfolio/&text=Découvrez mon portfolio en développement web !"
                         target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
                     <a href="https://instagram.com" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
@@ -863,7 +858,8 @@
                             <ion-icon name="logo-instagram"></ion-icon>
                         </a>
 
-                        <a href="https://www.linkedin.com/in/evans-parfait-ab569a29b/" class="footer__social" target="_blank">
+                        <a href="https://www.linkedin.com/in/evans-parfait-ab569a29b/" class="footer__social"
+                            target="_blank">
                             <ion-icon name="logo-linkedin"></ion-icon>
                         </a>
 
@@ -887,14 +883,27 @@
     </main>
 
 
-    <!--==================== SCROLL UP ====================-->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("V8kPppNmN7HYnWD0l");
+        })();
+    </script>
 
     <!--==================== MIXITUP FILTER ====================-->
     <script src="assets/js/mixitup.min.js"></script>
 
 
     <!--==================== MAIN JS ====================-->
-    <script src="assets/js/script.js"></script>
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", function(e) {
+          e.preventDefault();
+          emailjs.sendForm("service_3ulf0yx", "template_mt0u8c3", this)
+            .then(() => alert("Message envoyé !"))
+            .catch((error) => alert("Erreur : " + error));
+        });
+      </script>
+    <!-- <script src="assets/js/script.js"></script> -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
