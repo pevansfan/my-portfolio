@@ -1,0 +1,15 @@
+.group-title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.group-title .title {
+    font-size: var(--biggest-font-size);
+    letter-spacing: -3px;
+    line-height: 1;
+}
+
+.group-title .title span {
+    color: var(--color-3);
+}

@@ -1,0 +1,31 @@
+.card-gsap {
+    background-color: var(--color-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    height: 100%;
+    transition: background-color 0.3s ease-in;
+}
+
+.card-gsap .index {
+    font-size: 8rem;
+    font-weight: var(--font-medium);
+}
+
+.card-gsap .title {
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-semi-bold);
+    margin: 10px 0;
+}
+
+.card-gsap .description {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-regular);
+    color: var(--text-color-light);
+    line-height: 1.5;
+}
+
+.card-gsap:hover {
+    background-color: var(--color-primary-2);
+}

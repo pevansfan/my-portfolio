@@ -1,0 +1,35 @@
+.card-logo-language {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logo-container {
+    transition: color 0.3s ease;
+    background-color: #fff;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.logo-name {
+    position: absolute;
+    top: -35px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 0.9rem;
+    padding: 4px 8px;
+    border-radius: 6px;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 768px) {
+    .logo-container {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    }
+}

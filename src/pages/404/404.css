@@ -1,0 +1,29 @@
+.page-404 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.page-404 .title {
+    display: flex;
+    align-items: center;
+    font-size: 6em;
+}
+
+.page-404 .title span {
+    color: var(--color-primary);
+}
+
+.page-404 .subtitle {
+    font-size: var(--font-size-h2);
+}
+
+.page-404 .button-back-home {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+}

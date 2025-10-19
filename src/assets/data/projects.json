@@ -1,0 +1,298 @@
+{
+    "projects": [
+        {
+            "title": "Michelle Bouillon",
+            "shortDescription": "Création d’un site vitrine moderne et responsive pour le restaurant Michelle Bouillon, mettant en avant son univers culinaire et son savoir-faire.",
+            "category": "Développement Web",
+            "informations": {
+                "name": "Projet de conception web",
+                "duration": "4 jours",
+                "date": "11 janvier 2024",
+                "place": "La Manu",
+                "team": [
+                    "Moi",
+                    "2 camarades de classe"
+                ]
+            },
+            "context": "Dans le cadre de notre formation à La Manu, nous avons réalisé un projet de création de site vitrine pour un restaurant fictif nommé « Michelle Bouillon ». L’objectif était de concevoir une plateforme élégante et fonctionnelle permettant de présenter l’identité du restaurant, sa carte, son ambiance et ses services, tout en travaillant sur l’expérience utilisateur et le design responsive. Nous avons utilisé une approche collaborative pour concevoir l’arborescence, le wireframe et l’intégration visuelle du site.",
+            "challenge": "Le principal défi consistait à créer un site à la fois esthétique et intuitif, reflétant l’image d’un restaurant haut de gamme tout en assurant une navigation fluide sur tous les appareils. Il a également fallu harmoniser les choix graphiques et techniques au sein de l’équipe pour garantir une cohérence globale.",
+            "solution": "Nous avons conçu une interface épurée et moderne avec une palette de couleurs sobres et élégantes. Le site a été développé en HTML, CSS et JavaScript, avec une attention particulière portée à la responsivité et à l’optimisation du temps de chargement. Chaque section (accueil, menu, à propos, contact) a été pensée pour offrir une expérience utilisateur agréable et immersive. Le résultat final met en valeur le charme du restaurant tout en respectant les standards du web moderne.",
+            "achievements": [
+                "Conception d’une identité visuelle cohérente",
+                "Développement d’un site vitrine responsive",
+                "Création de maquettes et wireframes UX/UI",
+                "Intégration HTML, CSS et JavaScript",
+                "Optimisation du design et des performances",
+                "Collaboration et gestion d’équipe",
+                "Mise en avant des plats et de l’ambiance du restaurant"
+            ],
+            "video": "https://youtu.be/3Jt_ERAhJts",
+            "images": {
+                "couverture": "/projects/projet-1/couverture.png",
+                "others": [
+                    "images/michelle_bouillon/homepage.png",
+                    "images/michelle_bouillon/menu_section.png"
+                ]
+            },
+            "id": 1,
+            "link": "https://pevansfan.github.io/site-restaurant/"
+        },
+        {
+            "title": "Shifumi",
+            "shortDescription": "Développement d’un mini-jeu interactif en JavaScript reproduisant le célèbre jeu du Shifumi (Pierre-Feuille-Ciseaux).",
+            "category": "Développement Web",
+            "informations": {
+                "name": "Projet individuel de développement",
+                "duration": "3 jours",
+                "date": "4 décembre 2023",
+                "place": "La Manu",
+                "team": [
+                    "Moi",
+                    "2 camarades de classe"
+                ]
+            },
+            "context": "Ce projet individuel avait pour objectif de créer un mini-jeu Shifumi (Pierre-Feuille-Ciseaux) entièrement codé en HTML, CSS et JavaScript. L’objectif était de mettre en pratique les bases du JavaScript, la manipulation du DOM et la gestion des événements utilisateur, tout en concevant une interface simple et ludique. Le jeu devait permettre à l’utilisateur d’affronter l’ordinateur, avec un affichage dynamique des résultats et des scores.",
+            "challenge": "Le principal défi consistait à rendre le jeu fluide et réactif, tout en assurant une bonne gestion des interactions entre l’utilisateur et le programme. Il fallait également concevoir une interface claire et attrayante qui s’adapte à tous les supports (mobile, tablette, ordinateur).",
+            "solution": "Nous avons structuré le code autour de fonctions claires pour gérer les choix du joueur et de l’ordinateur, déterminer le gagnant et mettre à jour l’affichage en temps réel. Nous avons également soigné le design avec une mise en page responsive et des animations légères pour rendre l’expérience plus engageante. Le résultat est un mini-jeu amusant, facile à utiliser et visuellement cohérent.",
+            "achievements": [
+                "Développement complet d’un mini-jeu en JavaScript",
+                "Utilisation des événements DOM et des conditions logiques",
+                "Mise en place d’un système de score dynamique",
+                "Création d’une interface responsive et ludique",
+                "Optimisation de la logique de jeu",
+                "Amélioration de l’expérience utilisateur",
+                "Renforcement des bases en JavaScript et CSS"
+            ],
+            "video": "https://youtu.be/1-n7UtetNo8",
+            "images": {
+                "couverture": "/projects/projet-2/couverture.png",
+                "others": [
+                    "images/shifumi/game_interface.png",
+                    "images/shifumi/result_screen.png"
+                ]
+            },
+            "id": 2,
+            "link": "https://pevansfan.github.io/site-shifumi/"
+        },
+        {
+            "title": "Burger King",
+            "shortDescription": "Reproduction du site officiel de Burger King en HTML, CSS et JavaScript pour perfectionner mes compétences en intégration et en responsive design.",
+            "category": "Développement Web",
+            "informations": {
+                "name": "Projet d’intégration web",
+                "duration": "2 semaine",
+                "date": "20 janvier 2024",
+                "place": "La Manu",
+                "team": [
+                    "Moi"
+                ]
+            },
+            "context": "Ce projet individuel avait pour objectif de reproduire le site officiel de Burger King afin d’améliorer mes compétences en intégration front-end. L’enjeu était de recréer fidèlement la structure, le design et les animations du site original en utilisant uniquement HTML, CSS et JavaScript. Le projet m’a permis de travailler sur la précision du rendu visuel, la hiérarchisation des éléments et l’adaptation responsive sur tous les supports.",
+            "challenge": "Le principal défi a été de reproduire à l’identique la mise en page du site officiel, avec ses effets de survol, ses transitions dynamiques et son design adaptatif. Il a fallu également veiller à la compatibilité entre navigateurs et à l’optimisation des performances sur mobile.",
+            "solution": "J’ai reproduit la structure du site à partir d’une maquette observée en ligne, en respectant la hiérarchie HTML et les principes du responsive design. Grâce à l’utilisation du Flexbox et du Grid, j’ai pu obtenir une mise en page fluide et fidèle à l’original. J’ai ajouté des animations CSS et des interactions JavaScript pour rendre le site plus vivant, tout en optimisant le code pour de meilleures performances.",
+            "achievements": [
+                "Reproduction fidèle du site Burger King",
+                "Maîtrise du HTML, CSS et JavaScript",
+                "Utilisation de Flexbox et CSS Grid",
+                "Mise en place d’un design 100% responsive",
+                "Ajout d’animations et d’effets interactifs",
+                "Optimisation du code et des performances",
+                "Perfectionnement des compétences en intégration front-end"
+            ],
+            "video": "https://youtu.be/XfXnX8Yzh9I",
+            "images": {
+                "couverture": "/projects/projet-3/couverture.png",
+                "others": [
+                    "images/burger_king/homepage.png",
+                    "images/burger_king/menu_section.png"
+                ]
+            },
+            "id": 3,
+            "link": "https://pevansfan.github.io/site-burger-king/"
+        },
+        {
+            "title": "Brief Créatif",
+            "shortDescription": "Conception d’une campagne de communication solidaire pour le Samu Social de Paris, axée sur la sensibilisation au sans-abrisme et la solidarité citoyenne.",
+            "category": "Développement mobile",
+            "informations": {
+                "name": "Brief créatif – Samu Social de Paris",
+                "duration": "3 jours",
+                "date": "18 décembre 2024",
+                "place": "La Manu",
+                "team": [
+                    "Moi",
+                    "10 camarades de classe"
+                ]
+            },
+            "context": "Dans le cadre d’un brief créatif proposé par le Samu Social de Paris, notre équipe devait imaginer une campagne de communication visant à sensibiliser le grand public à la cause des personnes sans-abri. L’objectif était de concevoir un concept visuel et narratif fort, accompagné de supports adaptés (affiches, réseaux sociaux, slogan, visuels publicitaires). Ce projet mêlait réflexion stratégique, créativité et travail en équipe pour répondre à une problématique sociale réelle.",
+            "challenge": "Le principal défi consistait à trouver le bon ton pour aborder un sujet sensible sans tomber dans le pathos, tout en suscitant une réelle émotion et une prise de conscience. Il fallait également veiller à respecter l’identité et les valeurs du Samu Social de Paris tout en proposant une approche originale et percutante.",
+            "solution": "Nous avons choisi de centrer notre campagne sur la notion de regard et d’humanité, à travers un concept visuel mettant en avant les visages et les histoires des personnes aidées. Nous avons conçu plusieurs affiches au style épuré et authentique, accompagné d’un slogan fort et de déclinaisons digitales pour les réseaux sociaux. Ce travail a permis de démontrer notre capacité à allier empathie, créativité et stratégie de communication.",
+            "achievements": [
+                "Analyse du brief et identification des besoins du client",
+                "Création d’un concept de communication fort et cohérent",
+                "Réalisation d’affiches et visuels pour les réseaux sociaux",
+                "Travail sur le ton, le message et le slogan",
+                "Respect de la charte et des valeurs du Samu Social",
+                "Présentation d’un dossier créatif complet",
+                "Travail collaboratif et brainstorming d’équipe",
+                "Développement des compétences en communication visuelle"
+            ],
+            "video": "https://youtube.com/shorts/lewuupMdTOc?feature=share",
+            "images": {
+                "couverture": "/projects/projet-4/couverture.png",
+                "others": [
+                    "images/samu_social/affiche_campagne.png",
+                    "images/samu_social/mockup_reseaux.png"
+                ]
+            },
+            "id": 4,
+            "link": "https://descorsiers.github.io/Brief_creatif_SAMUSOCIALPARIS/"
+        },
+        {
+            "title": "Top 10 Films",
+            "shortDescription": "Application web en JavaScript affichant le top 10 des meilleurs films par catégorie grâce à l’API TMDB.",
+            "category": "Développement Web",
+            "informations": {
+                "name": "Application JavaScript d’affichage des meilleurs films",
+                "duration": "1 semaine",
+                "date": "mars 2025",
+                "place": "La Manu",
+                "team": [
+                    "Moi"
+                ]
+            },
+            "context": "Ce projet individuel consistait à développer une application web en JavaScript permettant d’afficher les 10 meilleurs films de chaque catégorie en s’appuyant sur l’API TMDB. L’objectif était d’explorer la manipulation des données issues d’une API REST, leur affichage dynamique dans le DOM, ainsi que la gestion des catégories de films de manière claire et interactive.",
+            "challenge": "Le principal défi a été de comprendre et d’exploiter la structure des données renvoyées par l’API TMDB, tout en assurant une mise à jour fluide des films selon la catégorie choisie. Il a également fallu gérer les erreurs d’appel API, optimiser les performances lors du chargement des affiches et structurer le code de manière réutilisable.",
+            "solution": "J’ai conçu une interface claire permettant à l’utilisateur de sélectionner une catégorie de films. Les données sont récupérées via l’API TMDB et affichées dynamiquement à l’aide de JavaScript. Le projet intègre une gestion d’erreurs, une mise en page responsive et un affichage fluide des affiches de films pour une expérience utilisateur agréable.",
+            "achievements": [
+                "Utilisation de l’API TMDB pour récupérer des données en temps réel",
+                "Affichage dynamique des 10 meilleurs films par catégorie",
+                "Manipulation du DOM en JavaScript pur",
+                "Mise en place d’une interface claire et responsive",
+                "Gestion des erreurs et des chargements API",
+                "Optimisation du rendu et de la lisibilité du code",
+                "Renforcement des compétences en API REST et JavaScript asynchrone"
+            ],
+            "video": "https://youtu.be/CZmWC32MiXA",
+            "images": {
+                "couverture": "/projects/projet-5/couverture.png",
+                "others": [
+                    "images/infos_name/homepage.png",
+                    "images/infos_name/result_page.png"
+                ]
+            },
+            "id": 5,
+            "link": "https://pevansfan.github.io/site-movie/"
+        },
+        {
+            "title": "Low Poly",
+            "shortDescription": "Création d’une illustration vectorielle en style Low Poly sur Illustrator, représentant un paysage emblématique de Madagascar.",
+            "category": "PAO",
+            "informations": {
+                "name": "Projet de création graphique – Low Poly",
+                "duration": "2 semaines",
+                "date": "21 février 2024",
+                "place": "La Manu",
+                "team": [
+                    "Moi"
+                ]
+            },
+            "context": "Dans le cadre d’un atelier de design graphique, l’objectif était de réaliser une illustration en utilisant la technique du Low Poly sur Adobe Illustrator. Cette méthode consiste à représenter une image à l’aide de formes géométriques (principalement des triangles) pour créer un effet visuel stylisé et moderne. J’ai choisi de reproduire un paysage de Madagascar afin de mettre en valeur la beauté naturelle de mon pays à travers une interprétation artistique et vectorielle.",
+            "challenge": "Le principal défi était de réussir à retranscrire la profondeur et la lumière du paysage uniquement à l’aide de formes polygonales, tout en conservant un rendu harmonieux et réaliste. Il fallait également gérer avec précision la construction des polygones et le choix des couleurs pour créer un effet de relief convaincant.",
+            "solution": "J’ai commencé par vectoriser les grandes zones du paysage, puis j’ai progressivement affiné les détails en traçant manuellement chaque polygone sur Illustrator. J’ai travaillé sur les nuances de couleurs et les contrastes pour donner une impression de volume et de perspective. Le résultat final est une œuvre graphique moderne et épurée, rendant hommage aux paysages malgaches à travers un style artistique géométrique.",
+            "achievements": [
+                "Maîtrise de la technique du Low Poly",
+                "Utilisation avancée d’Adobe Illustrator",
+                "Représentation fidèle d’un paysage de Madagascar",
+                "Gestion des formes, couleurs et lumières",
+                "Création d’une composition équilibrée et esthétique",
+                "Développement du sens de la précision et du détail",
+                "Renforcement des compétences en design vectoriel"
+            ],
+            "video": "https://youtu.be/8gDbjn_CcuY",
+            "images": {
+                "couverture": "/projects/projet-6/couverture.png",
+                "others": [
+                    "images/low_poly/paysage_madagascar.png",
+                    "images/low_poly/detail_zoom.png"
+                ]
+            },
+            "id": 6,
+            "link": "https://pevansfan.github.io/site-low-poly/"
+        },
+        {
+            "title": "Damien's Portfolio",
+            "shortDescription": "Conception et développement d’un portfolio professionnel personnalisé pour mettre en valeur les compétences et projets d’un étudiant en développement web.",
+            "category": "Développement Web",
+            "informations": {
+                "name": "Création d’un portfolio sur mesure",
+                "duration": "3 semaines",
+                "date": "4 juillet 2025",
+                "place": "La Manu",
+                "team": [
+                    "Moi"
+                ]
+            },
+            "context": "Ce projet consistait à concevoir et réaliser le portfolio de Damien, un étudiant en développement web, afin de présenter ses compétences, ses projets et son parcours professionnel. J’avais carte blanche pour la conception graphique, avec pour seule contrainte d’utiliser la couleur bleue comme teinte principale. Le but était de créer une interface claire, moderne et valorisante, tout en respectant les bonnes pratiques du design d’interface et de l’ergonomie.",
+            "challenge": "Le principal défi résidait dans la création d’une identité visuelle unique tout en conservant une structure intuitive et professionnelle. Il fallait trouver le bon équilibre entre esthétisme, lisibilité et mise en avant du contenu, tout en garantissant une expérience utilisateur fluide et responsive.",
+            "solution": "J’ai conçu la maquette du site sur Figma avant de passer à l’intégration en HTML, CSS et JavaScript. J’ai choisi une palette de bleus harmonieuse et des typographies sobres pour renforcer la crédibilité et la clarté du design. Le site comporte plusieurs sections (Accueil, Compétences, Projets, Contact) et une navigation fluide adaptée à tous les écrans. Le résultat final offre un portfolio à la fois élégant, fonctionnel et représentatif de la personnalité du client.",
+            "achievements": [
+                "Création complète d’un portfolio personnalisé",
+                "Conception graphique moderne et professionnelle",
+                "Utilisation d’une charte bleue harmonieuse",
+                "Réalisation d’une maquette sur Figma",
+                "Intégration responsive en HTML, CSS et JavaScript",
+                "Optimisation de la navigation et de l’expérience utilisateur",
+                "Valorisation des projets et compétences du client",
+                "Renforcement des compétences en design et intégration"
+            ],
+            "video": "https://youtu.be/6ZON7_IEc9Y",
+            "images": {
+                "couverture": "/projects/projet-7/couverture.png",
+                "others": [
+                    "images/damien_portfolio/homepage.png",
+                    "images/damien_portfolio/projects_section.png"
+                ]
+            },
+            "id": 7,
+            "link": "https://pevansfan.github.io/damien-portfolio/"
+        },
+        {
+            "title": "Other Portfolio",
+            "shortDescription": "Création d’un portfolio personnel en SCSS, avec une liberté totale sur la charte graphique pour expérimenter le design et la mise en page.",
+            "category": "Développement Web",
+            "informations": {
+                "name": "Réalisation d’un portfolio personnel avec SCSS",
+                "duration": "2 semaines",
+                "date": "10 février 2025",
+                "place": "La Manu",
+                "team": [
+                    "Moi"
+                ]
+            },
+            "context": "Ce projet avait pour objectif de concevoir un portfolio personnel en utilisant exclusivement SCSS pour la mise en forme. J’avais carte blanche pour la conception visuelle, ce qui m’a permis d’explorer librement la typographie, les couleurs, les effets et la structure générale du site. L’objectif était de créer un espace moderne et harmonieux mettant en avant mes compétences et mes réalisations.",
+            "challenge": "Le principal défi consistait à concevoir une interface à la fois originale et cohérente tout en maintenant une architecture SCSS claire et modulable. Il fallait également veiller à la performance du site et à la compatibilité entre les navigateurs.",
+            "solution": "J’ai structuré le projet en SCSS en utilisant des variables, des mixins et des partials pour garantir une organisation optimale du code. Le design a été pensé autour d’une mise en page épurée et responsive, avec des transitions douces et un jeu de couleurs équilibré. Le site offre une navigation fluide et met en valeur les projets de manière dynamique.",
+            "achievements": [
+                "Création complète d’un portfolio personnel",
+                "Utilisation avancée de SCSS (variables, mixins, partials)",
+                "Liberté graphique totale pour le design",
+                "Conception responsive et moderne",
+                "Optimisation du code CSS via le préprocesseur SCSS",
+                "Amélioration des compétences en design d’interface",
+                "Expérimentation de nouvelles approches visuelles",
+                "Structure claire et bien organisée du projet"
+            ],
+            "video": "https://youtu.be/jwiR_RoEFrY",
+            "images": {
+                "couverture": "/projects/projet-8/couverture.png",
+                "others": [
+                    "images/other_portfolio/home.png",
+                    "images/other_portfolio/about_section.png"
+                ]
+            },
+            "id": 8,
+            "link": "https://pevansfan.github.io/mon-portfolio/"
+        }
+    ]
+}

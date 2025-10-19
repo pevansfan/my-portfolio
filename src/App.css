@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Varela+Round&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================================
+   🎨 Variables CSS globales
+   ================================ */
+:root {
+  /* 🎨 Couleurs */
+  --color-primary: #E63946;
+  /* Rouge moderne */
+  --color-primary-2: #fc6161;
+  /* Rouge clair */
+  --color-primary-3: #ffb7b7;
+  --color-text: #2B2B2B;
+  /* Noir adouci */
+  --color-bg: #FAFAFA;
+  /* Fond clair */
+  --color-secondary: #E5E5E5;
+  /* Gris clair */
+  --color-3: #a8a8a8;
+  /* Gris foncé */
+
+  /* ✍️ Typographies */
+  --font-body: 'Varela Round', sans-serif;
+  /* Texte lisible */
+
+  /* 🔠 Tailles de polices */
+  --biggest-font-size: 5rem;
+  /* ~64px */
+  --font-size-h1: 2.5rem;
+  /* ~40px */
+  --font-size-h2: 2rem;
+  /* ~32px */
+  --font-size-h3: 1.5rem;
+  /* ~24px */
+  --font-size-body: 1rem;
+  /* ~16px */
+  --font-size-small: 0.875rem;
+  /* ~14px */
+  --smallest-font-size: 0.675rem;
+  /* ~10px */
+
+  /* ===== Margenes Bottom ===== */
+  --mb-0-25: .25rem;
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+}
+
+/* ================================
+   🔤 Application des styles
+   ================================ */
+body {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.section {
+  padding: 100px 40px;
+}
+
+.swiper-pagination-bullet {
+  transition: all 0.3s ease-in-out !important; /* ✅ transition douce */
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--color-primary) !important;
+  width: 30px !important;
+  border-radius: 10px !important;
+}
+
+@media screen and (max-width: 1168px) {
+  .section {
+    padding: 50px 20px;
+  }
+}

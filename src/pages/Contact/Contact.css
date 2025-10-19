@@ -1,0 +1,108 @@
+.Contact {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contact .presentation {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.Contact .contact-form {
+    margin: 40px 0;
+    width: 100%;
+}
+
+.Contact .contact-form .contact-informations {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.Contact .contact-form .contact-informations .input-group {
+    width: 100%;
+}
+
+.Contact .contact-form .contact-informations .input-group input {
+    width: 100%;
+    padding: 10px;
+}
+
+.Contact .contact-form .message {
+    width: 100%;
+    min-height: 200px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.Contact .contact-form .contact-informations .input-group input,
+.Contact .contact-form .message {
+    border: 1px solid var(--color-secondary);
+    border-radius: 10px;
+}
+
+.Contact .contact-form .contact-informations .input-group input:focus,
+.Contact .contact-form .message:focus {
+    border: 1px solid var(--color-primary);
+    outline: none;
+}
+
+.Contact .contact-form .contact-informations .input-group input::placeholder,
+.Contact .contact-form .message::placeholder {
+    font-family: var(--font-body);
+}
+
+.Contact .button-submit {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: var(--font-size-body);
+    font-family: var(--font-body);
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(230, 57, 70, 0.2);
+    /* couleur claire */
+    border-top-color: #e63946;
+    /* couleur principale */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+/* Animation de rotation */
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Contact .presentation .group-title .title {
+        font-size: var(--font-size-h1);
+        letter-spacing: -1px;
+    }
+}
+
+@media screen and (max-width: 598.98px) {
+    .Contact .contact-form .contact-informations {
+        flex-direction: column;
+    }
+}

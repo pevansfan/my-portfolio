@@ -1,0 +1,130 @@
+.About {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.About .presentation {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.About .presentation .presentation-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.About .presentation .presentation-description .button-contact {
+    font-size: var(--font-size-h3);
+    padding: 20px;
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+}
+
+.About .languages {
+    min-height: 100vh;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.About .languages h1 {
+    font-size: var(--biggest-font-size);
+    letter-spacing: -5px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.About .languages h1 span {
+    color: var(--color-primary);
+}
+
+.About .languages-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    gap: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .About .presentation {
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .About .languages-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .languages h1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .About .presentation .presentation-description .button-contact {
+        width: fit-content;
+        padding: 15px 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .About .presentation {
+        height: auto;
+        margin: 100px 0;
+        gap: 5em;
+    }
+    .About .languages h1 {
+        font-size: var(--font-size-h1);
+        letter-spacing: -1px;
+        flex-direction: row;
+    }
+
+    .About .languages-container {
+        display: none;
+    }
+
+    .About .swiper {
+        margin: 1rem 0;
+        width: 100%;
+        height: 300px;
+        
+    }
+
+    .About .swiper .swiper-slide {
+        padding: 20px;
+    }
+
+    .About .group-title .title {
+        font-size: var(--font-size-h1);
+        letter-spacing: -1px;
+    }
+
+    .About .presentation .presentation-description .button-contact {
+        font-size: var(--font-size-normal);
+    }
+}
+
+@media screen and (max-width: 598.98px) {
+    .About .languages h1 {
+        letter-spacing: -1px;
+        flex-direction: column;
+        text-align: center;
+    }
+}

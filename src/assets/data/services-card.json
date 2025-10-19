@@ -1,0 +1,22 @@
+[
+    {
+        "index": 1,
+        "title": "Développement web",
+        "description": "Création de sites web modernes, responsives et optimisés pour tous les appareils."
+    },
+    {
+        "index": 2,
+        "title": "Design UI/UX",
+        "description": "Conception d'interfaces utilisateur intuitives et expérience utilisateur optimale."
+    },
+    {
+        "index": 3,
+        "title": "PAO",
+        "description": "Réalisation de supports graphiques et mise en page professionnelle pour tous vos projets."
+    },
+    {
+        "index": 4,
+        "title": "Développement mobile",
+        "description": "Développement d'applications web adaptées aux appareils mobiles pour une accessibilité maximale."
+    }
+]

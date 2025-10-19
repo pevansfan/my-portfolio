@@ -1,0 +1,123 @@
+/* Footer.css */
+.Footer {
+    background-color: #000;
+    color: var(--color-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+}
+
+.Footer .container {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+}
+
+.Footer .subtitle {
+    text-transform: uppercase;
+}
+
+.Footer .email {
+    display: flex;
+    align-items: center;
+    font-size: var(--biggest-font-size);
+    gap: 20px;
+    color: var(--color-3);
+}
+
+.Footer .email span {
+    color: var(--color-3);
+}
+
+.Footer .email span a {
+    color: var(--color-bg);
+}
+
+.Footer .button-email {
+    background-color: transparent;
+    border: 2px solid var(--color-bg);
+    color: var(--color-bg);
+    transition: transform .3s ease-in-out;
+}
+
+.Footer .button-email:hover {
+    transform: rotate(45deg);
+}
+
+.Footer .button-email a {
+    display: flex;
+    align-items: center;
+}
+
+.Footer .bar {
+    width: 100%;
+    height: .5px;
+    background-color: var(--color-bg);
+}
+
+.Footer .footer-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Footer .footer-menu .footer-img img{
+    width: 100px;
+    height: auto;
+}
+
+.Footer .footer-menu ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Footer .footer-menu ul li {
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.Footer .footer-menu ul li.active {
+    text-decoration: underline;
+}
+
+.Footer .copyright {
+    margin-top: 50px;
+    color: var(--color-secondary);
+    font-size: var(--smallest-font-size);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer .copyright .autor {
+    color: var(--color-primary);
+}
+
+@media screen and (max-width: 768px) {
+    .Footer .email {
+        font-size: var(--font-size-h1);
+    }
+
+    .Footer .container {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .Footer .footer-menu {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Footer .email {
+        font-size: var(--font-size-h3);
+    }
+}

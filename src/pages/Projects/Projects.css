@@ -1,0 +1,16 @@
+.Projects {
+    background-color: var(--color-bg);
+}
+
+.Projects .title {
+    margin-top: 50px;
+    text-align: center;
+    font-size: var(--biggest-font-size);
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 598.98px) {
+    .Projects .title {
+        font-size: var(--font-size-h1);
+    }
+}

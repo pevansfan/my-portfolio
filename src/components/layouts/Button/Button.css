@@ -1,0 +1,33 @@
+.button {
+    border: none;
+    font-size: var(--p-font-size);
+    cursor: pointer;
+    font-family: var(--font-body);
+}
+
+.button-text {
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 50px;
+    white-space: nowrap;
+}
+
+.button-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px){
+    .button-text {
+        padding: 10px 20px;
+    }
+
+    .button-icon {
+        width: 45px;
+        height: 45px;
+    }
+}

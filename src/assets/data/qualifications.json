@@ -1,0 +1,36 @@
+{
+    "education": [
+        {
+            "title": "Brevet des collèges",
+            "text": "Collège Ferdinand Bac (Compiègne)",
+            "date": "2018 - 2020"
+        },
+        {
+            "title": "Baccalauréat général",
+            "text": "Lycée Pierre d'Ailly (Compiègne)",
+            "date": "2020 - 2023"
+        },
+        {
+            "title": "Bachelor Chef de Projet Développement & IA",
+            "text": "LA MANU - École supérieure des Métiers du Numérique (La-Croix-Saint-Ouen)",
+            "date": "2023 - maintenant"
+        }
+    ],
+    "experience": [
+        {
+            "title": "Stage en développement d'applications web",
+            "text": "Webanimus (Compiègne - Venette)",
+            "date": "Avril 2024 - Juin 2024"
+        },
+        {
+            "title": "Facteur",
+            "text": "La Poste (Compiègne)",
+            "date": "Juillet 2024 - Août 2024"
+        },
+        {
+            "title": "Stage en développeur web",
+            "text": "Sabaï Création (Margny-lès-Compiègne)",
+            "date": "Avril 2025 - Juillet 2025"
+        }
+    ]
+}

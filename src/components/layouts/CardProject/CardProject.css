@@ -1,0 +1,129 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card-container .card {
+    position: relative;
+}
+
+.card-project {
+    width: 100%;
+    --r: 50px;
+    /* the radius */
+    --s: 60px;
+    /* size of inner curve */
+    --x: 10px;
+    /* horizontal offset (no percentane) */
+    --y: 10px;
+    /* vertical offset (no percentage) */
+
+    aspect-ratio: 1;
+    border-radius: var(--r);
+    --_m: /calc(2*var(--r)) calc(2*var(--r)) radial-gradient(#000 70%, #0000 72%);
+    --_g: conic-gradient(from 90deg at calc(100% - var(--r)) calc(100% - var(--r)), #0000 25%, #000 0);
+    --_d: (var(--s) + var(--r));
+    mask:
+        calc(100% - var(--_d) - var(--x)) 100% var(--_m),
+        100% calc(100% - var(--_d) - var(--y)) var(--_m),
+        radial-gradient(var(--s) at 100% 100%, #0000 99%, #000 calc(100% + 1px)) calc(-1*var(--r) - var(--x)) calc(-1*var(--r) - var(--y)),
+        var(--_g) calc(-1*var(--_d) - var(--x)) 0,
+        var(--_g) 0 calc(-1*var(--_d) - var(--y));
+    mask-repeat: no-repeat;
+}
+
+.card-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.button-project {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+    width: 100px;
+    height: 100px;
+}
+
+.card-category {
+    background-color: var(--color-secondary);
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: fit-content;
+}
+
+.card-informations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-informations .point,
+.card-infos .point  {
+    width: 5px;
+    height: 5px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+}
+
+.card-informations .team {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-informations .team span,
+.card-informations .date,
+.card-infos .date {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-title {
+    letter-spacing: -2px;
+}
+
+.card-infos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin: 50px 0;
+}
+
+.project-info .project-info-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-info .project-info-title .icon-arrow-top-right {
+    background-color: var(--color-primary-2);
+    color: var(--color-bg);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.project-info .project-short-description {
+    color: var(--color-3);
+}
+
+@media screen and (max-width: 768px) {
+    .project-info .project-info-title .icon-arrow-top-right {
+        display: none;
+    }
+}
