@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.21ea6f18.css",
-    "main.js": "/my-portfolio/static/js/main.40625d90.js",
-    "static/js/453.1407b060.chunk.js": "/my-portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/work-7.png": "/my-portfolio/static/media/work-7.4e66a2508de081738193.png",
-    "static/media/work-8.png": "/my-portfolio/static/media/work-8.694f2fa2e41b8fb0433a.png",
-    "static/media/work-1.png": "/my-portfolio/static/media/work-1.ecd1217cf20f6309de49.png",
-    "static/media/work-3.png": "/my-portfolio/static/media/work-3.f6df04b80dcedbc0bd22.png",
-    "static/media/work-2.png": "/my-portfolio/static/media/work-2.db6b9aeba4d57b28bbdc.png",
-    "static/media/logo.png": "/my-portfolio/static/media/logo.08ee324d726be6cda02a.png",
-    "static/media/work-6.png": "/my-portfolio/static/media/work-6.a7a9c33d90ebb754a445.png",
-    "static/media/background-playstation-buttons.png": "/my-portfolio/static/media/background-playstation-buttons.93ec8daa3e31b33602e2.png",
-    "static/media/work-4.png": "/my-portfolio/static/media/work-4.a55e6f436b34d2027f59.png",
-    "static/media/work-5.png": "/my-portfolio/static/media/work-5.d07199a02e2455b34081.png",
-    "static/media/homme-2.png": "/my-portfolio/static/media/homme-2.3f753fcc50e55cf01501.png",
-    "static/media/homme.png": "/my-portfolio/static/media/homme.3c3b4410d3cc8ce2ee40.png",
+    "main.css": "/my-portfolio/static/css/main.38e0e053.css",
+    "main.js": "/my-portfolio/static/js/main.8388f06f.js",
+    "static/js/312.03f33b06.chunk.js": "/my-portfolio/static/js/312.03f33b06.chunk.js",
+    "static/js/694.a6d40dd9.chunk.js": "/my-portfolio/static/js/694.a6d40dd9.chunk.js",
+    "static/js/453.a22a4657.chunk.js": "/my-portfolio/static/js/453.a22a4657.chunk.js",
+    "static/media/img-skills-carousel.jpg": "/my-portfolio/static/media/img-skills-carousel.5557784a5caa7b95b41a.jpg",
+    "static/media/moi.png": "/my-portfolio/static/media/moi.e373bfd7701de38c2d96.png",
+    "static/media/illustration-carousel.png": "/my-portfolio/static/media/illustration-carousel.923aaabb0f11be589696.png",
+    "static/media/memoji-me.png": "/my-portfolio/static/media/memoji-me.066e18b9887e5bd0734d.png",
+    "static/media/card-info-project.png": "/my-portfolio/static/media/card-info-project.b9a4f1a59519baac83ce.png",
+    "static/media/logo.png": "/my-portfolio/static/media/logo.c9d7e6e57621ab29ff90.png",
+    "static/media/logo-2.png": "/my-portfolio/static/media/logo-2.f55f76df289ea56feb0b.png",
+    "static/media/animated-logo.mp4": "/my-portfolio/static/media/animated-logo.629c7d682948472dc72b.mp4",
     "index.html": "/my-portfolio/index.html",
-    "main.21ea6f18.css.map": "/my-portfolio/static/css/main.21ea6f18.css.map",
-    "main.40625d90.js.map": "/my-portfolio/static/js/main.40625d90.js.map",
-    "453.1407b060.chunk.js.map": "/my-portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.38e0e053.css.map": "/my-portfolio/static/css/main.38e0e053.css.map",
+    "main.8388f06f.js.map": "/my-portfolio/static/js/main.8388f06f.js.map",
+    "312.03f33b06.chunk.js.map": "/my-portfolio/static/js/312.03f33b06.chunk.js.map",
+    "694.a6d40dd9.chunk.js.map": "/my-portfolio/static/js/694.a6d40dd9.chunk.js.map",
+    "453.a22a4657.chunk.js.map": "/my-portfolio/static/js/453.a22a4657.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21ea6f18.css",
-    "static/js/main.40625d90.js"
+    "static/css/main.38e0e053.css",
+    "static/js/main.8388f06f.js"
   ]
 }
