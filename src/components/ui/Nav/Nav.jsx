@@ -39,7 +39,7 @@ export default function Navbar() {
             <div className="navbar-container">
                 {/* Logo */}
                 <div className="logo">
-                    <a href="/">
+                    <a href={process.env.PUBLIC_URL + '/'}>
                         <img src={logo} alt="Logo" />
                     </a>
                 </div>
