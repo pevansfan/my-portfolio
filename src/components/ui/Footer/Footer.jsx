@@ -4,6 +4,7 @@ import "./Footer.css";
 import Button from "../../layouts/Button/Button";
 import ArrowTopRight from "../../icons/ArrowTopRight";
 import Logo2 from "../../../assets/img/logo-2.png"
+import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
@@ -37,16 +38,16 @@ export default function Footer() {
                     </div>
                     <ul>
                         <li className={window.location.pathname === "/" ? "active" : ""}>
-                            <a href="/">Accueil</a>
+                            <Link href="/">Accueil</Link>
                         </li>
                         <li className={window.location.pathname === "/about" ? "active" : ""}>
-                            <a href="/about">À propos</a>
+                            <Link href="/about">À propos</Link>
                         </li>
                         <li className={window.location.pathname === "/projects" ? "active" : ""}>
-                            <a href="/projects">Projets</a>
+                            <Link href="/projects">Projets</Link>
                         </li>
                         <li className={window.location.pathname === "/contact" ? "active" : ""}>
-                            <a href="/contact">Contact</a>
+                            <Link href="/contact">Contact</Link>
                         </li>
                     </ul>
                 </nav>

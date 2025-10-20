@@ -164,6 +164,7 @@
     background-color: transparent;
     border: 2px solid var(--color-text);
     transition: all .2s ease-in;
+    color: var(--color-text);
 }
 
 .Home .about .about-container .button:hover {
@@ -263,6 +264,7 @@
 
 .Home .projects .button-all-projects {
     margin: 40px 0;
+    color: var(--color-text);
 }
 
 @media screen and (max-width: 1168px) {

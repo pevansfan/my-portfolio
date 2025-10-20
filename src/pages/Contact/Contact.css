@@ -1,5 +1,5 @@
 .Contact {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,6 +95,10 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    .Contact .presentation {
+        margin-top: 150px;
+    }
     .Contact .presentation .group-title .title {
         font-size: var(--font-size-h1);
         letter-spacing: -1px;
